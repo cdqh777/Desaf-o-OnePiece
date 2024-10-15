@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://pm1.aminoapps.com/6580/c5088bc84d7407adc247a231f17968aa865b6a2f_hq.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(235, 213, 197);
+    font-family: 'Pirata One', cursive;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    height: 20vh;
+    margin-top: 50px;
+    align-items: center;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 25px;
+    width: 20%;
+    height: auto;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    right: 50px;
+}
+
+nav a {
+    color: #333;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 60px;
+    transition: color 1s;
+}
+
+nav a:hover {
+    color: #e85860;
+    font-size: 30px;
+}
+
+.caja {
+    background-color: #D4C5AE;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #201B15;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #3A2923;
+}
+
+p {
+    color: white;
+    padding: 10px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.pie {
+    background-color: #3D2C27;
+    margin: 10px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 20px;
+}
+
+.redes-sociales a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition
